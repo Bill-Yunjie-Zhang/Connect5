@@ -57,13 +57,19 @@ class Game extends React.Component {
         return arr1.map(this.createBox)
     }
 
+    refresh = () => {
+        window.location.reload(false)
+    }
+
     render() {
         return (
-            <div>
+            <div style={{width: "454px", margin: "auto"}}>
+                <h1 style={{textAlign: "center"}}>Connect 5</h1>
                 <div style={style} id="board">
                     {this.createBoxes()}
                 </div>
                 <CheckWin winner = {this.state.winner} nextMove={this.state.nextMove}></CheckWin>
+                <button onClick={this.refresh} style={{textAlign: "center", width: "454px", height: "60px", fontSize: "30px", border: "0px", backgroundColor: "#1865f2", color: "#ffffff"}}>Restart</button>
             </div>
         )
     }
