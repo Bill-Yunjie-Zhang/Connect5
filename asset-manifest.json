@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Connect5/static/js/main.b58fbd76.chunk.js",
+    "main.js.map": "/Connect5/static/js/main.b58fbd76.chunk.js.map",
+    "runtime-main.js": "/Connect5/static/js/runtime-main.58c3740d.js",
+    "runtime-main.js.map": "/Connect5/static/js/runtime-main.58c3740d.js.map",
+    "static/js/2.246729e5.chunk.js": "/Connect5/static/js/2.246729e5.chunk.js",
+    "static/js/2.246729e5.chunk.js.map": "/Connect5/static/js/2.246729e5.chunk.js.map",
+    "index.html": "/Connect5/index.html",
+    "precache-manifest.f510155832e660add1fc8dd288ff63c1.js": "/Connect5/precache-manifest.f510155832e660add1fc8dd288ff63c1.js",
+    "service-worker.js": "/Connect5/service-worker.js",
+    "static/js/2.246729e5.chunk.js.LICENSE.txt": "/Connect5/static/js/2.246729e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58c3740d.js",
+    "static/js/2.246729e5.chunk.js",
+    "static/js/main.b58fbd76.chunk.js"
+  ]
+}
