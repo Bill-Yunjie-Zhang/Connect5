@@ -41,7 +41,7 @@ class Game extends React.Component {
     changeCashe = (arr, symbol) => {
         let squareTaken1 = this.state.squareTaken
         squareTaken1[arr[0]][arr[1]] = symbol
-        this.setState({squareTaken: squareTaken1})
+        // this.setState({squareTaken: squareTaken1})
     }
 
     createBox = () => {
