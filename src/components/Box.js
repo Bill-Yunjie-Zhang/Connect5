@@ -41,7 +41,7 @@ class Box extends React.Component{
             }
         }
 
-        if(count > 5){
+        if(count === 5){
             return true
         }
 
@@ -67,7 +67,7 @@ class Box extends React.Component{
             }
         }
 
-        if(count > 5){
+        if(count === 5){
             return true
         }
 
@@ -107,7 +107,7 @@ class Box extends React.Component{
             }
         }
 
-        if(count > 5){
+        if(count === 5){
             return true
         }
 
@@ -147,7 +147,7 @@ class Box extends React.Component{
             }
         }
 
-        if(count > 5){
+        if(count === 5){
             return true
         }
 
